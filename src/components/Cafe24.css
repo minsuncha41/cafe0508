@@ -1,0 +1,54 @@
+.cafe{
+    cursor: pointer;
+    width: calc(100%/4 - 2.3%);
+    display: flex;
+    flex-flow: column;
+    gap: 7px;
+    text-align: left;
+}
+
+.imgs img{
+    object-fit: cover;
+}
+
+.clbox{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    gap: 10px;
+}
+.clbox span{
+    border-radius: 50px;
+    box-shadow:  0 0 3px black;
+    display: block;
+    height: 15px;
+    width: 15px;
+}
+
+.name ,.dcbox{
+    color: black;
+    font-weight: bold;
+}
+.text,.money, .lb{
+    color: #777;
+    font-size: 13px;
+}
+.lb{
+    padding: 10px 0;
+}
+.cl1{
+    background-color: white;
+}
+.cl2{
+    background-color: black;
+}
+.cl3{
+    background-color: yellow;
+}
+
+.dcbox>p>span{
+    color: red;
+    margin-right: 5px;
+}
